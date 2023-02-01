@@ -115,6 +115,7 @@ for contact in unread_contacts:
         all_rows = driver.find_elements(By.XPATH, '//*[@id="main"]/div[2]/div/div[2]/div/div')
 
         for row in all_rows:
+            
             #gelen veri türüne göre seçim yapmak için değişken oluşturup eğer varsa değişkene değer atıyor
             try:
                 document_elem = row.find_element(
@@ -226,7 +227,8 @@ for contact in unread_contacts:
                     messages.append("image")
             elif album_elem == 'image-album':
                 messages.append("image album")
-            #düz mesajı ekliyor
+            #DÜZ MESAJI EKLİYOR
+            
             else:
                 try:
                     message = row.find_element(By.CLASS_NAME, "_21Ahp").text
@@ -268,13 +270,15 @@ for contact in unread_contacts:
             elif "_1DlhQ _1JCqN" in list_item:
                 pass                
             # gereksiz rowlar ayıklandıktan sonra mesaj tarihlerini çekiyor
+            
             else:
-                try:
-                    msg_date = row.find_element(
-                        By.XPATH, './/*[@data-pre-plain-text]').get_attribute('data-pre-plain-text')
-                    msg_dates.append(msg_date)
-                except:
-                    msg_dates.append("no date")
+            
+                    try:
+                        msg_date = row.find_element(
+                            By.XPATH, './/*[@data-pre-plain-text]').get_attribute('data-pre-plain-text')
+                        msg_dates.append(msg_date)
+                    except:
+                        msg_dates.append("no date")
 
         # meta = MetaData()
         # #tablo daha önceden oluşturuldu fakat burada ekleme işlemi yapmam için tekrar tanımlıyorum

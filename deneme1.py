@@ -6,10 +6,20 @@
 #     print (f"{a} = {b}")
 
 
-list = []
+# list = []
 
-a,b,c = "1", "2", "3"
+# a,b,c = "1", "2", "3"
 
-list.append(((a,b,c)))
+# list.append(((a,b,c)))
 
-print(list)
+# print(list)
+
+x = "2sadasd"
+
+if x != "":
+    
+    x = True
+
+if x == True:
+    
+    print ("1")
