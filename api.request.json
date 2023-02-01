@@ -1,0 +1,27 @@
+{
+  "status": true,
+  "detail": {
+    "result": "created",
+    "record": {
+      "id": 5889,
+      "created_at": "2023-01-17T12:31:11.994Z",
+      "updated_at": "2023-01-17T12:31:11.994Z",
+      "is_deleted": false,
+      "deleted_at": null,
+      "code": "10009",
+      "type": 1,
+      "name": "Berkay",
+      "tax_number": "12345667888",
+      "is_corporate": true,
+      "tax_office": null,
+      "email": null,
+      "phone_number": null,
+      "fax_number": null,
+      "website": null,
+      "currency_code": null,
+      "description": null,
+      "status": true,
+      "external_balance": 0
+    }
+  }
+}

@@ -1,0 +1,9 @@
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: DataTables warning: table id=customers-table - Ajax error. For more information about this error, please see http://datatables.net/tn/7
+Message: unexpected alert open: {Alert text : DataTables warning: table id=customers-table - Ajax error. For more information about this error, please see http://datatables.net/tn/7}
+
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: 1
+
+DataTables warning: table id=customers-table - Requested unknown parameter 'tax_number' for row 5, column 2. For more information about this error, please see http://datatables.net/tn/4
+
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: DataTables warning: table id=customers-table - Requested unknown parameter 'tax_number' for row 1, column 2. For more information about this error, please see http://datatables.net/tn/4
+
